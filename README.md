@@ -1,7 +1,7 @@
 # Mind Controlled Nao-Robot
 
 ## Description
-This is a ROS package to control the nao robot using facial expressions by integrating the Emotiv Epoc+ EEG sensor. Its easy to use, just build in your catkin workspace and download the dependencies and you ready to go :)
+This is a ROS package to control the nao robot using facial expressions by integrating the Emotiv Epoc+ EEG sensor. It is easy to use, just build in your catkin workspace and download the dependencies and you ready to go :)
 
 ## Dependencies
 these are the two python libraries that you should install before using this package, other libraries used in the package are already installed with the regular python installation
@@ -10,12 +10,12 @@ these are the two python libraries that you should install before using this pac
 - naoqi
 
 ## How it works?
-This a really basic ROS package used to explore the cababilities of the Emotiv Epoc+ sensor
+This a really basic ROS package used to explore the capabilities of the Emotiv Epoc+ sensor
 there is two nodes the first one which is the "expression_publisher.py" is using the Emotiv APIs to get the signal and process it, after that the signal is published to the topic "/emoState".
-the subscrber reads which expression is published there and then give the command to the robot to move.
+the subscriber reads which expression is published there and then give the command to the robot to move.
 
 the available moves are the following :
-- Smilimg -> Moving Forward
+- Smiling -> Moving Forward
 - Clenching -> Stopping
 - Eye-brow -> Rotating right
 - Furbrow -> Rotating left
@@ -44,3 +44,6 @@ make sure to change the permission of the python files to be executable by runni
 ```
 chmod +x file_name.py
 ```
+
+## Contact 
+you can contact me on my [linkedin](https://www.linkedin.com/in/shehabeldin-housein-6a2949120/) account for any further questions
