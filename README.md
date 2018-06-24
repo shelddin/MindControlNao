@@ -21,7 +21,9 @@ the available moves are the following :
 - Furbrow -> Rotating left
 
 # How to use?
-first change the username for the directory to your computer username
+first change the username for the directory to your computer username, in line 35 you will find the following 
+ libPath = "/home/shehabaldeen/catkin_ws/src/nao_mind_controlled/bin/linux64/libedk.so"
+just change the directory to the right path on your computer
 
 After that basically run the two nodes separately by using the following commands
 
