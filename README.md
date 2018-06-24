@@ -19,7 +19,7 @@ the available moves are the following :
 - Clenching -> Stopping
 - Eye-brow -> Rotating right
 - Furbrow -> Rotating left
-
+** tested only on Ubuntu 16.04 64bit with ROS kinetic ** 
 ## How to use?
 first change the username for the directory to your computer username, in line 35 you will find the following 
  ```
