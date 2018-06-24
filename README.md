@@ -15,13 +15,15 @@ there is two nodes the first one which is the "expression_publisher.py" is using
 the subscrber reads which expression is published there and then give the command to the robot to move.
 
 the available moves are the following :
-. Smilimg -> Moving Forward
-. Clenching -> Stopping
-. Eye-brow -> Rotating right
-. Furbrow -> Rotating left
+- Smilimg -> Moving Forward
+- Clenching -> Stopping
+- Eye-brow -> Rotating right
+- Furbrow -> Rotating left
 
 # How to use?
-basically run the two nodes separately by using the following commands
+first change the username for the directory to your computer username
+
+After that basically run the two nodes separately by using the following commands
 
 rosrun nao_mind_controlled expression_publisher.py
 
