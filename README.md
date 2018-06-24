@@ -7,7 +7,7 @@ This is a ROS package to control the nao robot using facial expressions by integ
 these are the two python libraries that you should install before using this package, other libraries used in the package are already installed with the regular python installation
 
 - cypes
-- naoqi library
+- naoqi
 
 # How it works?
 This a really basic ROS package used to explore the cababilities of the Emotiv Epoc+ sensor
