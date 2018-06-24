@@ -7,6 +7,7 @@ This is a ROS package to control the nao robot using facial expressions by integ
 - cypes
 - naoqi library
 
-# How to use ?
+# How it works?
+# How to use?
 
 # Problem you may face!
